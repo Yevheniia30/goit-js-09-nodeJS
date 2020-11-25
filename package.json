@@ -1,0 +1,30 @@
+{
+  "name": "goit-js-09-nodejs",
+  "version": "1.0.0",
+  "description": "module_09",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node js",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yevheniia30/goit-js-09-nodeJS.git"
+  },
+  "author": "Yevheniia Suska <susskaya86@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yevheniia30/goit-js-09-nodeJS/issues"
+  },
+  "homepage": "https://github.com/Yevheniia30/goit-js-09-nodeJS#readme",
+  "dependencies": {
+    "lodash.throttle": "^4.1.1",
+    "validator": "^13.1.17"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7"
+  }
+}
