@@ -1,12 +1,13 @@
 {
   "name": "goit-js-09-nodejs",
   "version": "1.0.0",
-  "description": "module_09",
+  "description": "module-09",
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
-    "test": "node js",
-    "build": "babel src -d lib"
+    "build": "babel src -d lib",
+    "file": "node src/file.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   "homepage": "https://github.com/Yevheniia30/goit-js-09-nodeJS#readme",
   "dependencies": {
     "lodash.throttle": "^4.1.1",
+    "uuid": "^8.3.1",
     "validator": "^13.1.17"
   },
   "devDependencies": {

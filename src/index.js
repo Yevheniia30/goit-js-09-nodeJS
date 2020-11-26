@@ -1,21 +1,11 @@
-const message = "node is cool";
-console.log(message);
+//генератор id
+const uuid = require("uuid");
+// console.log(uuid.v4());
+// import { v4 as uuidv4 } from "uuid";
 
-const validator = require("validator");
-const lodash = require("lodash.throttle");
-const file = require("./file");
-console.log("hello");
-
-const validateEmail = (email) => {
-  return validator.isEmail(email);
+// просто функция
+const fun = (c, d) => {
+  console.log(c * d);
 };
 
-console.log(
-  "Is mango@mail.com a valid email?: ",
-  validateEmail("mango@mail.com")
-);
-
-console.log(
-  "Is Mangozedog.com a valid email?: ",
-  validateEmail("Mangozedog.com")
-);
+fun(20, 40);
