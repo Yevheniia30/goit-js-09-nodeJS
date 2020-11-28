@@ -1,3 +1,8 @@
+import "./sass/styles.scss";
+// import "./index.html";
+// import "./sass/base.css";
+// import "./sass/body.css";
+
 //генератор id
 const uuid = require("uuid");
 // console.log(uuid.v4());
