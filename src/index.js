@@ -14,3 +14,8 @@ const fun = (c, d) => {
 };
 
 fun(20, 40);
+
+const ex = (m, n) => {
+  console.log(m + n);
+};
+ex(10, 5);
